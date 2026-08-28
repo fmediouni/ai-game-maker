@@ -1,0 +1,17 @@
+ctx.fillStyle = "white";
+    ctx.font = "24px Arial";
+    ctx.fillText("MON PREMIER JEU IA", 20, 40);
+}
+
+function gameLoop() {
+    update();
+    draw();
+    requestAnimationFrame(gameLoop);
+}
+
+gameLoop();
+
+</script>
+
+</body>
+</html>
